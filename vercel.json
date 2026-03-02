@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/estimator", "dest": "/estimator.html" },
+    { "src": "/estimator.html", "dest": "/estimator.html" },
+    { "src": "/", "dest": "/index.html" }
+  ]
+}
